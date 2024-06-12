@@ -9,9 +9,9 @@ const Root = defineComponent({
       operand1: 0,
       operand2: 0,
       operator: null,
+      calculate:0,
     };
   },
-
   computed: {
     calculate: function () {
       let result = 0;
