@@ -7,12 +7,7 @@
   <body>
     <div id="app">
       <div>
-        <label><input type="radio" value="1" /> 1</label>
-        <label><input type="radio" value="2" /> 2</label>
-        <label><input type="radio" value="3" /> 3</label>
-        <label><input type="radio" value="4" /> 4</label>
-        <label><input type="radio" value="5" /> 5</label>
-
+        <label v-for="i in 5"><input type="radio" :value="i" v-model = "select" /> {{ i }}</label>
         <hr />
 
         <h3>MEETUP_TITLE</h3>
